@@ -1,0 +1,16 @@
+{
+    "name": "skreh/skreh",
+    "description": "skreh library",
+    "type": "library",
+    "require": {
+        "symfony/symfony": "^4.1"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "skreh",
+            "email": "skreh@qq.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
