@@ -1,16 +1,28 @@
 {
     "name": "skreh/skreh",
-    "description": "skreh library",
-    "type": "library",
-    "require": {
-        "symfony/symfony": "^4.1"
-    },
-    "license": "mit",
+    "description": "skreh web system",
+    "type": "project",
+    "license": "proprietary",
     "authors": [
         {
             "name": "skreh",
             "email": "skreh@qq.com"
         }
     ],
-    "minimum-stability": "stable"
+    "require": {
+        "php": "^7.2",
+        "symfony/symfony": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skreh\\": "src/"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+        },
+        "pre-update-cmd": [
+            "Skreh\\Composer\\Script::preUpdate"
+        ]
+    }
 }
