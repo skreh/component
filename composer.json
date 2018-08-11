@@ -17,6 +17,5 @@
         "psr-4": {
             "Skreh\\Component\\": "src/"
         }
-    },
-
+    }
 }
