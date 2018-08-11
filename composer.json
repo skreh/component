@@ -1,7 +1,7 @@
 {
-    "name": "skreh/skreh",
-    "description": "skreh web system",
-    "type": "project",
+    "name": "skreh/component",
+    "description": "skreh component",
+    "type": "library",
     "license": "proprietary",
     "authors": [
         {
@@ -15,14 +15,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Skreh\\": "src/"
+            "Skreh\\Component\\": "src/"
         }
     },
-    "scripts": {
-        "auto-scripts": {
-        },
-        "pre-update-cmd": [
-            "Skreh\\Composer\\Script::preUpdate"
-        ]
-    }
+
 }
