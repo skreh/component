@@ -1,6 +1,6 @@
 {
     "name": "skreh/component",
-    "description": "skreh component",
+    "description": "Include third party libraries of skreh components",
     "type": "library",
     "license": "proprietary",
     "authors": [
@@ -15,12 +15,13 @@
         "symfony/symfony": "^4.1"
     },
     "require-dev": {
-        "php": "^7.2",
+        "skreh/library": "^0.1.0",
         "symfony/symfony": "^4.1"
     },
     "autoload": {
         "psr-4": {
             "Skreh\\Component\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
 }
