@@ -23,5 +23,5 @@
             "Skreh\\Component\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev"
 }
